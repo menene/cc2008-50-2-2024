@@ -7,8 +7,8 @@ class Animal
         this.nombre_cientifico = nombre;
     }
 
-    protected void hablar()
+    protected String hablar()
     {
-        System.out.println("El animal está hablando");
+        return "El animal está hablado";
     }
 }

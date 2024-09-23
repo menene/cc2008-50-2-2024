@@ -10,9 +10,9 @@ class Perro extends Animal
         this.raza = raza;
     }
 
-    public void hablar()
+    public String hablar()
     {
-        System.out.println("Woof Woof");
+        return "Guau Guau";
     }
 
     public String ciencia()
