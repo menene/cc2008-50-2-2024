@@ -10,15 +10,15 @@ class Estudiante extends Persona
         this.carnet = carnet;
     }
 
-    // public String getCarrera()
-    // {
-    //     return this.carrera;
-    // }
+    public String getCarrera()
+    {
+        return this.carrera;
+    }
 
-    // public String getCarnet()
-    // {
-    //     return this.carnet;
-    // }
+    public String getCarnet()
+    {
+        return this.carnet;
+    }
 
     @Override
     public String toString()

@@ -1,6 +1,6 @@
 class PerroFaldero extends Perro
 {
-    private String owner;
+    protected String owner;
 
     public PerroFaldero(String nombre, String raza, String nombre_cientifico,String owner)
     {
@@ -8,6 +8,7 @@ class PerroFaldero extends Perro
         this.owner = owner;
     }
 
+    @Override
     public String hablar()
     {
         return "Woof Woof";

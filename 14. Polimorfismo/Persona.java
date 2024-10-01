@@ -8,15 +8,15 @@ class Persona
         this.cui = cui;
     }
 
-    // public String getNombre()
-    // {
-    //     return this.nombre;
-    // }
+    public String getNombre()
+    {
+        return this.nombre;
+    }
 
-    // public String getCui()
-    // {
-    //     return this.cui;
-    // }
+    public String getCui()
+    {
+        return this.cui;
+    }
 
     @Override
     public String toString()

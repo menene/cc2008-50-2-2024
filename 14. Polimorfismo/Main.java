@@ -18,8 +18,10 @@ class Main
 
         for (Persona per: personas) {
             System.out.println(per);
+
             // if (per instanceof Estudiante) {
-            //     System.out.println(per.getNombre() + " " + per.getCui() + " " + per.getCarrera() + " " + per.getCarnet());
+            //     Estudiante estudiante = (Estudiante) per;
+            //     System.out.println(estudiante.getNombre() + " " + estudiante.getCui() + " " + estudiante.getCarrera() + " " + estudiante.getCarnet());
             // } else {
             //     System.out.println(per.getNombre() + " " + per.getCui());
             // }

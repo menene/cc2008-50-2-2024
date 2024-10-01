@@ -1,6 +1,6 @@
 class Perro extends Animal
 {
-    private String nombre, raza;
+    protected String nombre, raza;
 
     public Perro(String nombre, String raza, String nombre_cientifico)
     {
@@ -10,13 +10,14 @@ class Perro extends Animal
         this.raza = raza;
     }
 
+    @Override
     public String hablar()
     {
-        return "Guau Guau";
+        return super.hablar() + " y dice Guau Guau";
     }
 
-    public String ciencia()
-    {
-        return this.nombre_cientifico;
-    }
+    // protected String ciencia()
+    // {
+    //     return this.nombre_cientifico;
+    // }
 }
